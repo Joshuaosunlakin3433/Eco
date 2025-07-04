@@ -11,7 +11,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { useRef } from "react";
-import { Alegreya } from "next/font/google";
 
 export const Hero = () => {
   const heroRef = useRef(null);

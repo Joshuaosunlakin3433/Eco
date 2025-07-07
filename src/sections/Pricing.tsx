@@ -72,7 +72,7 @@ export const Pricing = () => {
             <div
               key={item.title}
               className={twMerge(
-                "card",
+                "card hover:scale-105 transition-all ease-in-out duration-500",
                 item.inverse === true && "border-black/60 bg-black text-white"
               )}
             >
@@ -119,7 +119,7 @@ export const Pricing = () => {
               </div>
               <button
                 className={twMerge(
-                  "btn btn-primary w-full mt-[30px]",
+                  "btn btn-primary w-full mt-[30px] hover:bg-blue-700 hover:shadow-lg hover:scale-105 transition-all ease-linear duration-200",
                   item.inverse === true && "bg-white text-black  "
                 )}
               >

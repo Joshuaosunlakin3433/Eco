@@ -42,8 +42,8 @@ const translateY = useTransform(scrollYProgress, [0, 1], [150, -150])
           />
         </div>
         <div className="flex gap-2 mt-10 justify-center">
-          <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text gap-1">
+          <button className="btn btn-primary hover-btn-black">Get for free</button>
+          <button className="btn btn-text gap-1 hover-btn-transparent">
             <span>Learn more</span>
             <ArrowRight className="size-5 inline-flex justify-center items-center" />
           </button>

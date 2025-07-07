@@ -37,8 +37,8 @@ export const Hero = () => {
               your progress, motivate your efforts, and celebrate your successes{" "}
             </p>
             <div className="flex gap-3 mt-8">
-              <button className="btn">Get for free</button>
-              <button className="btn btn-text gap-1">
+              <button className="btn hover-btn-black">Get for free</button>
+              <button className="btn btn-text gap-1 hover-btn-transparent">
                 <span>Learn more</span>
                 <ArrowRight className="size-5 inline-flex justify-center items-center" />
               </button>

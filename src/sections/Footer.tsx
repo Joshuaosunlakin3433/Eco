@@ -14,9 +14,9 @@ export const Footer = () => {
           <Image src={logo} height={40} alt="Eco logo" className="relative"/>
         </div>
         <nav className="flex flex-col md:flex-row md:justify-center gap-6 mt-6 *:footer-hover">
-          <a href="#">About</a>
-          <a href="#">Features</a>
-          <a href="#">Customers</a>
+          <a href="#Products">About</a>
+          <a href="#Features">Features</a>
+          <a href="#Testimonials">Customers</a>
           <a href="#">Pricing</a>
           <a href="#">Help</a>
           <a href="#">Careers</a>

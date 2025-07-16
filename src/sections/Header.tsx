@@ -25,8 +25,8 @@ export const Header = () => {
               <a href="#Products" className="nav-links">About</a>
               <a href="#Features" className="nav-links">Features</a>
               <a href="#Testimonials" className="nav-links">Customers</a>
-              <a href="" className="nav-links">Updates</a>
-              <a href="" className="nav-links">Help</a>
+              <a href="#CTA" className="nav-links">Updates</a>
+              <a href="#Footer" className="nav-links">Help</a>
               <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 ">
                 Get for free
               </button>

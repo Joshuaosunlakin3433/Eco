@@ -14,7 +14,7 @@ const {scrollYProgress} = useScroll({
 })
 const translateY = useTransform(scrollYProgress, [0, 1], [150, -150])
   return (
-    <section ref={ctaRef} className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip">
+    <section ref={ctaRef} className="bg-gradient-to-b from-white to-[#D2DCFF] py-24 overflow-x-clip" id="CTA">
       <div className="container">
         <div className="section-heading relative">
           <h2 className="section-title">Sign up for free today</h2>
